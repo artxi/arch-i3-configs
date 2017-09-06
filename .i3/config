@@ -127,6 +127,7 @@ bindsym $mod+XF86AudioLowerVolume exec playerctl previous
 #bindsym $mod+XF86AudioLowerVolume exec mpc prev # Play previous media
 
 exec --no-startup-id sh ~/.i3/connectNAS.sh
+exec --no-startup-id teamviewer --daemon start
 
 hide_edge_borders both
 
